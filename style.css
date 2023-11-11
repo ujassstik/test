@@ -65,7 +65,7 @@ input{
     border-radius: 10px;
     border: 2px solid #4C9EFF;
 }
-tr {
+.table__trbody{
     background: #ffff;
     box-shadow: 2px 2px 10px 0px #00000033;
     width: 1296px;
@@ -74,9 +74,23 @@ tr {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.table__trhead{
+    background: #ffff;
+    width: 1296px;
+    height: 70px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .table__td {
+    border-spacing: 10px;
     font-size: 15px;
     font-weight: 400;
     line-height: 18px;   
+}
+
+td{
+    padding-left: 10px;
 }
 
