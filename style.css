@@ -28,7 +28,7 @@
     font-weight: 400;
     line-height: 18.15px;
 }
-.button {
+.button-name {
     margin: 10px;
     width: 241px;
     height: 40px;
@@ -40,7 +40,7 @@
     cursor: pointer;
     line-height: 40px;
 }
-.button1 {
+.button-price {
     margin: 10px;
     width: 208px;
     height: 40px;
@@ -66,12 +66,10 @@ input{
     border: 2px solid #4C9EFF;
     transition: 0.5s;
 }
-
 .input:focus {
     background-color: #ebebebc4;
     transition: 0.5s;
 }
-
 .table__trbody{
     background: #ffff;
     box-shadow: 2px 2px 10px 0px #00000033;
@@ -89,26 +87,22 @@ input{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
 .table__td {
     border-spacing: 10px;
     font-size: 15px;
     font-weight: 400;
     line-height: 18px;  
 }
-
 td{
     padding-left: 10px;
     padding-right: 30px;
 }
-
 .navigation {
     display: flex;
     justify-content: start;
     margin-top: 31px;
     margin-left: 20px;
 }
-
 .nav {
     margin-right: 120px;
     color: #000;
@@ -119,7 +113,6 @@ td{
     letter-spacing: -0.3px;
     width: 126px;
 }
-
 .block_information {
     display: flex;
     width: 1296px;
@@ -131,36 +124,29 @@ td{
     position: relative;
     font-size: 15px;
 }
-
 .block_margin1 {
     margin-left: 20px;
     margin-right: 65px;
     width: 190px;
     padding-top: 26px;
 }
-
 .block_price {
     width: 300px;
     position: absolute;
     left: 512px;
 }
-
 .block_rating {
     position: absolute;
     left: 758px;
 }
-
 .block_review {
     position: absolute;
     left: 1005px;
 }
-
 .block_time {
     position: absolute;
     left: 264px;
 }
-
-
 .block_button {
     border-radius: 0px 10px 10px 0px;
 background: #4C9EFF;
@@ -170,7 +156,6 @@ flex-shrink: 0;
 border: none;
 margin-left: 900px;
 color: #FFF;
- 
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
@@ -180,45 +165,34 @@ text-align: center;
 transition: 0.5s;
 cursor: pointer;
 }
-
-
-
 .block_margin {
     padding-top: 27px;
 }
-
 .block_information {
     margin-top: 21px;
     margin-bottom: -10px;
 }
-
 .block_button:hover {
     background: #276fc7;
     transition: 0.4s;
 }
-
 .block_button:active {
     background: #144b8d;
     transition: 0.1s ease-in-out;
 }
-
 .button:hover {
     background: #276fc7;
     transition: 0.4s;
 }
-
 .button1:hover {
     background: #276fc7;
     transition: 0.4s;
 }
-
 .button:active {
     background: #144b8d;
     transition: 0.1s ease-in-out;
 }
-
 .button1:active {
     background: #144b8d;
     transition: 0.1s ease-in-out;
 }
-
